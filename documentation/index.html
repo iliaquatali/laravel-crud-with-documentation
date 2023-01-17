@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap4.0.0.min.css">
+    <title>Documentation</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="bg-primary text-white p-2">
+            <h1 class="text-center">Laravel Crud</h1>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card mt-3 tab-card">
+                      <div class="card-header tab-card-header">
+                        <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                          <li class="nav-item">
+                              <a class="nav-link" id="one-tab" data-toggle="tab" href="#start" role="tab" aria-controls="One" aria-selected="true">Start</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="two-tab" data-toggle="tab" href="#require" role="tab" aria-controls="Two" aria-selected="false">Requirements</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="three-tab" data-toggle="tab" href="#shots" role="tab" aria-controls="Three" aria-selected="false">Screenshots</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="four-tab" data-toggle="tab" href="#install" role="tab" aria-controls="Four" aria-selected="false">Installation</a>
+                          </li>
+                        </ul>
+                      </div>
+              
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active p-3" id="start" role="tabpanel" aria-labelledby="one-tab">
+                          <h5 class="card-title">Getting Start</h5>
+                          <p class="card-text">This is simple Laravel 8 tutorial for beginner who want to learn basic Crud Mysql Database Operation in Laravel 8 framework</p>
+                          
+                        </div>
+                        <div class="tab-pane fade p-3" id="require" role="tabpanel" aria-labelledby="two-tab">
+                          <h5 class="card-title">Requiements</h5>
+                          <p class="card-text">
+                              <ul>
+                                  <li>PHP >= 7.3</li>
+                                  <li>BCMath PHP Extension</li>
+                                  <li>Ctype PHP Extension</li>
+                                  <li>Fileinfo PHP Extension</li>
+                                  <li>JSON PHP Extension</li>
+                                  <li>Mbstring PHP Extension</li>
+                                  <li>OpenSSL PHP Extension</li>
+                                  <li>PDO PHP Extension</li>
+                                  <li>Tokenizer PHP Extension</li>
+                                  <li>XML PHP Extension</li>
+                              </ul>
+                          </p>
+                          
+                        </div>
+                        <div class="tab-pane fade p-3" id="shots" role="tabpanel" aria-labelledby="three-tab">
+                          <h5 class="card-title">Screenshots</h5>
+                          <p class="card-text">
+                              <img src="images/st1.png" width="33%">
+							  <img src="images/st2.png" width="33%">
+							  <img src="images/st3.png" width="33%">
+                          </p>
+                        </div>
+                        <div class="tab-pane fade p-3" id="install" role="tabpanel" aria-labelledby="four-tab">
+                          <h5 class="card-title">Installation</h5>
+                          <p class="card-text">
+                              <p>Just download the project to anywhere in your computer and then.</p>               
+							  
+                              <ol>
+                                <li>Open Project in a Code Editor, rename <code>.env.example</code> to <code>.env</code> and modify DB name, username, password to your environment.</li>
+                                <li>Install composer dependencies : <code>composer install</code></li>
+                                <li>An application key can be generated with the command : <code>php artisan key:generate</code></li>
+                                <li>Migrate the database : <code>php artisan migrate</code></li>
+                                <li>Seed Demo Data into database : <code>php artisan db:seed</code></li>
+                                <li>Run the artisan serve command : <code>php artisan serve</code></li>
+                                <li>Proceed to : <code>http://localhost:8000/students</code></li>
+                              </ol>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap4.0.0.min.js"></script>
+</body>
+</html>
